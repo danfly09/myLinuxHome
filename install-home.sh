@@ -1,4 +1,6 @@
 #!/bin/bash
+#
+#TODO: Add papirus installation command.
 
 # This script does not work unless executed from its folder
 if ! ls "$PWD/$(basename $0)" >/dev/null 2>&1; then
@@ -7,7 +9,7 @@ if ! ls "$PWD/$(basename $0)" >/dev/null 2>&1; then
 fi
 
 # List of required packages to check
-required_packages=("curl" "git" "zsh")  # Replace these with your actual package names
+required_packages=("curl" "git" "zsh" "vim")  # Replace these with your actual package names
 missing_packages=()
 
 # Function to check if a package is installed

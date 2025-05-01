@@ -81,3 +81,6 @@ set foldlevelstart=20
 " Enable mouse
 set mouse=a
 
+" Show line numbers
+set number
+
