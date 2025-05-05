@@ -77,6 +77,7 @@ cp -f $PWD/fonts/* $HOME/.local/share/fonts
 ln -sf $PWD/zsh $HOME/.local/share/
 ln -sf $PWD/zshrc $HOME/.zshrc
 ln -sf $PWD/vimrc $HOME/.vimrc
+ln -sf $PWD/starship.toml $HOME/.config/
 
 # Get the current user
 current_user=$(whoami)
